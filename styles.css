@@ -1,0 +1,82 @@
+:root {
+  --font-family: "Josefin Sans", sans-serif;
+  --second-family: "Aleo", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero {
+  display: flex;
+  background: url('img/hero_image.jpg') no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: rgba(0, 0, 0, 0.5);
+  background-color: #5373FD;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li a {
+  color: white;
+  font-weight: 600;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li a {
+  color: white;
+  font-weight: 600;
+}
+
+.logo {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 117%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.hero-content {
+  margin: auto;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 108%;
+  text-transform: uppercase;
+  color: white;
+}
+
+.hero-content p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 127%;
+  letter-spacing: 0.31em;
+  color: white;
+}
