@@ -33,6 +33,7 @@ header {
     background-image: url(img/HeaderBG.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 862px;
     text-align: center;
     padding-block: 295px 120px;
@@ -465,6 +466,7 @@ main {
     background-repeat: no-repeat;
     min-height: 680px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 60px;
@@ -493,7 +495,8 @@ main {
           justify-content: center;
 
           img {
-            width: 446px;
+            max-width: 100%;
+            height: auto;
           }
 
           .text {
@@ -714,7 +717,6 @@ footer {
     .review {
       background-image: url(img/BG-r.jpg);
       min-height: unset;
-      min-height: 736px;
 
       .container {
 
@@ -948,7 +950,6 @@ footer {
           display: flex;
           align-items: center;
           position: relative;
-
 
           ul {
             position: absolute;
